@@ -2,7 +2,7 @@ import axios from "axios";
 import { getSession } from "next-auth/react";
 
 const defaultOptions = {
-  baseURL: "http://localhost:1234",
+  baseURL: "https://next-app-backend.onrender.com/",
   headers: {
     "Content-Type": "application/json",
   },
