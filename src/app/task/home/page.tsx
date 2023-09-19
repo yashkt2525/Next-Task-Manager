@@ -41,6 +41,7 @@ const Task = () => {
     }
   };
   const getData =async ()=>{ 
+    console.log("Access Token is",session?.user.accessToken);
     const response =await AxiosInstance.get('/task/get-task');
     const data = response.data.data;
     console.log("data is ",data);
