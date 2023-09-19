@@ -38,7 +38,7 @@ const RegistrationForm: React.FC = () => {
 
 
   try{
-    const response = await axios.post('http://localhost:1234/signup',data);
+    const response = await axios.post('https://next-app-backend.onrender.com/signup',data);
     
     console.log(response)
     if(response.status == 200){
