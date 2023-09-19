@@ -25,9 +25,9 @@ const Task = () => {
 
   const { data: session } = useSession({
     required: true,
-    onUnauthenticated() {
-      redirect("/user/login");
-    },
+    // onUnauthenticated() {
+    //   redirect("/user/login");
+    // },
   });
   console.log("Session is",session);
   const takeData =async (newState: obj) => {
