@@ -4,8 +4,7 @@ import { useRouter } from "next/navigation"
 import {useEffect} from 'react';
 
 const Error404 = () => {
-    const router = useRouter();
-    router.back();
+   
   return (
     <Box height={'100vh'} width={'100vw'} >
         <Stack height={'100%'} width={'100%'} justifyContent={'center'} alignItems={'center'}>
