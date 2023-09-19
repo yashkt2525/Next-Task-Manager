@@ -37,7 +37,7 @@ export const authOption: AuthOptions = {
       ): Promise<User | null> => {
         try {
           const response: AxiosResponse<any, any> = await axios.post(
-            "http://localhost:1234",
+            "https://next-app-backend.onrender.com",
             credentials
           );
 
